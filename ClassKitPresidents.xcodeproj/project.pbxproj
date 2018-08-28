@@ -13,6 +13,11 @@
 		AD441E3B207F9E0F009F2CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD441E3A207F9E0F009F2CD6 /* Assets.xcassets */; };
 		AD441E3E207F9E0F009F2CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD441E3C207F9E0F009F2CD6 /* LaunchScreen.storyboard */; };
 		AD441E41207F9E0F009F2CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD441E40207F9E0F009F2CD6 /* main.m */; };
+		AD441E49207F9E3F009F2CD6 /* MSCPresidents.m in Sources */ = {isa = PBXBuildFile; fileRef = AD441E48207F9E3F009F2CD6 /* MSCPresidents.m */; };
+		ADCDD00F213338370090E157 /* ClassKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCDD00E213338370090E157 /* ClassKitManager.swift */; };
+		ADFD34E620F7ED2E00645CE4 /* elections.json in Resources */ = {isa = PBXBuildFile; fileRef = ADFD34E520F7ED2E00645CE4 /* elections.json */; };
+		ADFD34E920F7F06300645CE4 /* MSCElections.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFD34E820F7F06300645CE4 /* MSCElections.m */; };
+		ADFD34EC20F7F87400645CE4 /* GameplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFD34EB20F7F87400645CE4 /* GameplayKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		AD441E3D207F9E0F009F2CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD441E3F207F9E0F009F2CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD441E40207F9E0F009F2CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD441E47207F9E3F009F2CD6 /* MSCPresidents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCPresidents.h; sourceTree = "<group>"; };
+		AD441E48207F9E3F009F2CD6 /* MSCPresidents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCPresidents.m; sourceTree = "<group>"; };
+		AD441E4A207FA0E7009F2CD6 /* ClassKitPresidents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClassKitPresidents.entitlements; sourceTree = "<group>"; };
+		ADCDD00D213338370090E157 /* ClassKitPresidents-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassKitPresidents-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADCDD00E213338370090E157 /* ClassKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassKitManager.swift; sourceTree = "<group>"; };
+		ADFD34E520F7ED2E00645CE4 /* elections.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = elections.json; sourceTree = "<group>"; };
+		ADFD34E720F7F06300645CE4 /* MSCElections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCElections.h; sourceTree = "<group>"; };
+		ADFD34E820F7F06300645CE4 /* MSCElections.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCElections.m; sourceTree = "<group>"; };
+		ADFD34EB20F7F87400645CE4 /* GameplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameplayKit.framework; path = System/Library/Frameworks/GameplayKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFD34EC20F7F87400645CE4 /* GameplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,7 @@
 			children = (
 				AD441E30207F9E0C009F2CD6 /* ClassKitPresidents */,
 				AD441E2F207F9E0C009F2CD6 /* Products */,
+				ADFD34EA20F7F87400645CE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +74,13 @@
 		AD441E30207F9E0C009F2CD6 /* ClassKitPresidents */ = {
 			isa = PBXGroup;
 			children = (
+				ADCDD00E213338370090E157 /* ClassKitManager.swift */,
+				ADFD34E520F7ED2E00645CE4 /* elections.json */,
+				AD441E4A207FA0E7009F2CD6 /* ClassKitPresidents.entitlements */,
+				AD441E47207F9E3F009F2CD6 /* MSCPresidents.h */,
+				AD441E48207F9E3F009F2CD6 /* MSCPresidents.m */,
+				ADFD34E720F7F06300645CE4 /* MSCElections.h */,
+				ADFD34E820F7F06300645CE4 /* MSCElections.m */,
 				AD441E31207F9E0C009F2CD6 /* AppDelegate.h */,
 				AD441E32207F9E0C009F2CD6 /* AppDelegate.m */,
 				AD441E34207F9E0C009F2CD6 /* ViewController.h */,
@@ -67,8 +90,17 @@
 				AD441E3C207F9E0F009F2CD6 /* LaunchScreen.storyboard */,
 				AD441E3F207F9E0F009F2CD6 /* Info.plist */,
 				AD441E40207F9E0F009F2CD6 /* main.m */,
+				ADCDD00D213338370090E157 /* ClassKitPresidents-Bridging-Header.h */,
 			);
 			path = ClassKitPresidents;
+			sourceTree = "<group>";
+		};
+		ADFD34EA20F7F87400645CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADFD34EB20F7F87400645CE4 /* GameplayKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +134,12 @@
 				TargetAttributes = {
 					AD441E2D207F9E0C009F2CD6 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.ClassKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFD34E620F7ED2E00645CE4 /* elections.json in Resources */,
 				AD441E3E207F9E0F009F2CD6 /* LaunchScreen.storyboard in Resources */,
 				AD441E3B207F9E0F009F2CD6 /* Assets.xcassets in Resources */,
 				AD441E39207F9E0C009F2CD6 /* Main.storyboard in Resources */,
@@ -143,7 +182,10 @@
 			files = (
 				AD441E36207F9E0C009F2CD6 /* ViewController.m in Sources */,
 				AD441E41207F9E0F009F2CD6 /* main.m in Sources */,
+				AD441E49207F9E3F009F2CD6 /* MSCPresidents.m in Sources */,
+				ADFD34E920F7F06300645CE4 /* MSCElections.m in Sources */,
 				AD441E33207F9E0C009F2CD6 /* AppDelegate.m in Sources */,
+				ADCDD00F213338370090E157 /* ClassKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +265,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.4;
 			};
 			name = Debug;
 		};
@@ -274,7 +316,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.4;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -283,6 +325,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ClassKitPresidents/ClassKitPresidents.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2DK828368;
 				INFOPLIST_FILE = ClassKitPresidents/Info.plist;
@@ -292,7 +336,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.proactiveinteractive.ClassKitPresidents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassKitPresidents/ClassKitPresidents-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -300,6 +347,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ClassKitPresidents/ClassKitPresidents.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2DK828368;
 				INFOPLIST_FILE = ClassKitPresidents/Info.plist;
@@ -309,7 +358,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.proactiveinteractive.ClassKitPresidents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassKitPresidents/ClassKitPresidents-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

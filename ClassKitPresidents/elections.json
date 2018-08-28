@@ -1,0 +1,45 @@
+ [
+  {
+  "year" : 1804,
+  "winner" : "Thomas Jefferson",
+  "loser" : "Charles Pinckney",
+  "triviaQuestion" : "Did Massachusetts vote for the winner?",
+  "trivialAnswer" : true
+  },
+  {
+  "year" : 1808,
+  "winner" : "James Madison",
+  "loser" : "Charles Pinckney",
+  "triviaQuestion" : "Did Massachusetts vote for the winner?",
+  "trivialAnswer" : false
+  },
+  {
+  "year" : 1812,
+  "winner" : "James Madison",
+  "loser" : "Dewitt Clinton",
+  "triviaQuestion" : "Did Massachusetts vote for the winner?",
+  "trivialAnswer" : false
+  },
+  {
+  "year" : 1816,
+  "winner" : "James Monroe",
+  "loser" : "Rufus King",
+  "triviaQuestion" : "Did Massachusetts vote for the winner?",
+  "trivialAnswer" : false
+  },
+  {
+  "year" : 1820,
+  "winner" : "James Monroe",
+  "loser" : "John Quincy Adams",
+  "triviaQuestion" : "Did Massachusetts vote for the winner?",
+  "trivialAnswer" : true
+  },
+  {
+  "year" : 1824,
+  "winner" : "John Quincy Adams",
+  "loser" : "Andrew Jackson",
+  "triviaQuestion" : "Did Massachusetts vote for the winner?",
+  "trivialAnswer" : true
+  },
+  
+  ]
