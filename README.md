@@ -4,6 +4,8 @@ This is a demo app created for a presentation I gave at 360iDev 2018, titled:
 
 <h2>ClassKit and Schoolwork</h2>
 
+The video for this talk is available at https://vimeo.com/310848851 (or  https://www.youtube.com/watch?v=yuMb36hTGFk if you prefer).
+
 The app's supposed purpose is to quiz the user on US Presidential Elections from 1804 through 1824.  Used without ClassKit, the app first presents a dialog asking the user to choose one of those elections.  The user is presented with the winner of that election, and asked two questions.
 
 The first question is to choose the loser of that election.  The user is presented with three options.  The first option is always the right choice (I told you this is a demo app!).  The other two choices are chosen at random from the list of losers for the other races in the data set.
